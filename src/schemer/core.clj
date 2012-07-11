@@ -110,6 +110,8 @@
   [n]
   (* -1 n))
 
+(declare subtract)
+
 (defn add
   [n m & additional]
   (cond
@@ -137,4 +139,3 @@
 (subtract 4 -2) ; 6
 (subtract -4 -2) ; -2
 (subtract -4 -2 -20 -20) ; 38
-
